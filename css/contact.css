@@ -1,0 +1,242 @@
+*{
+				padding:0;
+				margin: 0;
+}
+body{
+				font-family: Garamond, serif;
+}
+.header{
+				min-height:60vh;
+				width: 100%; 
+				background-image:url("images/background 4.jpg");
+				position:relative;
+				opacity:0.8;
+				background-position:center;
+				background-size:cover;
+				animation-name: background;		
+}
+.cendiv{
+				text-align:center;
+				color:white ;
+				font-size:1em;
+				opacity:1;
+}
+.logo{
+				color:white;
+				font-size:1.8em;
+				position:absolute;
+				top:27px;
+				left:28px;
+				border:3px solid #247BA0;	
+				border-radius:50%;			
+				width:150px;
+				padding-left:16px ;
+}
+.logo .span{
+				color:#247BA0;
+}
+section h1 a{
+				color:white;
+				text-decoration:none;
+}
+.div1{	
+				padding-top:160px;
+}
+#current a{
+				color:#247BA0;
+				font-weight:1000;
+				border-bottom:2px solid #247BA0;
+}
+
+.header ul{
+				padding:0;
+				margin:0;	
+				text-align:center
+}
+.header ul li{
+				display:inline;
+				list-style:none;
+				padding:8px;
+				font-weight:bold;
+				position:relative;
+				top:85px;
+}
+.header ul li a{
+				text-decoration:none;
+				color:white;
+}
+.header ul li a:hover{
+				color:white;
+				Background-color:transparent;
+		  font-size:1.3em; 
+}
+#current a{
+				color:#247BA0;
+				font-weight:1000;
+				border-bottom:2px solid #247BA0;
+}
+.h1a{
+				position:relative;
+				bottom:150px;
+}
+.div1{	
+			 position:relative;
+			 top:27vh;
+}
+@media(min-width:768px){
+				.cendiv{
+								font-size:2.5em;
+				}
+}			
+.sec5 #lastdiv {
+				display: flex;astdlex;				
+				flex-flow:row wrap;
+				justify-content:space-around;
+				align-items: center;
+}
+.sec5{
+				margin-top:30px ;		
+}
+ul{
+				list-style:none;
+}
+b{
+				padding-top:20px;
+}
+.add{
+				margin-left:10%;
+				display: flex;
+				flex-flow:row wrap;
+				justify-content:space-around;
+				align-items:flex-start ;
+}
+.add input{
+				padding:10px;
+				margin:10px 0px;
+				border:1px solid black;
+				transition:all 1s;
+}
+.add textarea{
+				margin-top:15px;
+				transition:all 1s;
+				border:1px solid black;
+				padding-left:10px;
+}
+textarea:hover, 
+.add input:hover{
+				transform:scale(1.1, 1.1);
+				box-shadow:1px 1px 2px black;
+}
+.sec5 img{
+				position:relative;
+				left:10%;
+				width:80%;
+				padding-bottom:5px;
+}
+#send{
+				border:1px solid black;
+				color:orangered;
+				padding:10px 20px;
+				width: 130px;
+				position:relative ;
+				left:30px;
+				transition:all 0.5s;
+				margin-top:30px;
+				
+}
+#send:hover{
+				background-color:orangered;
+				color:white ;
+				transform:scale(1.1, 1.1);
+				box-shadow:1px 1px 2px black;
+}
+.foot{
+				background-color:#0A061F;
+				color:white;
+				position:relative ;
+				padding-top:0px;
+				text-align:center ;
+				margin-top:60px;			
+				line-height:30px;		
+				font-size:16px;			
+}		
+.foot{
+				background-color:#0A061F;
+				color:white;
+				position:relative ;
+				padding-top:20px;
+				text-align:center ;
+				margin-top:50px;			
+				line-height:30px;					
+}		
+.foot .logo{
+				margin-bottom:30px;
+				position:relative;
+			 left:26%;
+			 margin-bottom:50px;
+}		
+.foot li{
+				list-style:none;
+				display: inline-block;
+}
+.foot li a{
+				color:white ;
+				display:block;
+				text-decoration:none;
+}
+@media(max-width:659px){
+				.logo{
+								left:29%;
+				}
+}
+@media(min-width:500px){
+				.foot .logo{
+				position: relative; left:39%;
+				}
+				.abimg .exp{
+								left:37%;
+				}
+				.add .2nd
+				.add ul{
+								font-size:1.4em;;
+				}
+				.sec5 img{
+								padding-bottom:40px;
+				}
+				.header ul li{
+								display:inline;
+								list-style:none;
+								padding:20px;
+								font-size:1.3em;
+								font-weight:bold;
+								position:relative;
+								top:29px;
+							 left: 132px;
+				}
+				
+				
+				
+}
+@media(min-width:990px){
+				.foot .logo{position: relative; left:43%;}
+				.abimg .exp{
+								left:41%;
+				}
+				.add .2nd
+				.add{
+								font-size:3en;
+				}
+					.sec5 img{
+								padding-bottom:40px;
+				}
+				.header ul li{
+								display:inline;
+								list-style:none;
+								padding:25px;
+								font-size:1.5em;
+								font-weight:bold;
+								position:relative;
+								top:29px;
+							 left: 157px;
+				}
+}
